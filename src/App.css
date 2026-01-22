@@ -1,0 +1,23 @@
+.sidebar {
+    position: fixed;
+    left: 0;
+    top: 0;
+    height: 100vh;
+    width: 60px;
+    background: #5A2D82;
+    transition: width 0.3s ease;
+    z-index: 1000;
+}
+
+.sidebar.open {
+    width: 220px;
+}
+
+.main-content {
+    margin-left: 60px; /* stays constant */
+    /*padding: 30px;*/
+    background: #F5F5FA;
+    min-height: 100vh;
+}
+
+
