@@ -12,7 +12,7 @@ export default function Layout({ children }) {
                     onClick={() => setOpen(!open)}
                     style={{ margin: 10, background: "white", borderRadius: 6 }}
                 >
-                    {open ? "Close" : "Open"}
+                    {open ? "Sluit" : "Open"}
                 </button>
 
                 {open && (
@@ -28,7 +28,7 @@ export default function Layout({ children }) {
                             to="/settings"
                             style={{ display: "block", marginBottom: 10, color: "white", textDecoration: "none" }}
                         >
-                            Settings
+                            Instellingen
                         </Link>
                     </nav>
                 )}

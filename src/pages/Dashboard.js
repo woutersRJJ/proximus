@@ -4,44 +4,44 @@ export default function Dashboard() {
     return (
         <div style={styles.container}>
             <h2 style={styles.title}>Dashboard</h2>
-            <p style={styles.subtitle}>Overview of your mobile services</p>
+            <p style={styles.subtitle}>Overzicht van je mobiele diensten</p>
 
             {/* Stat Cards */}
             <div style={styles.statsColumn}>
                 <div style={styles.statCard}>
-                    <p style={styles.statLabel}>Data Used</p>
+                    <p style={styles.statLabel}>Data verbruik</p>
                     <h4 style={styles.statValue}>4.2 GB / 10 GB</h4>
                 </div>
 
                 <div style={styles.statCard}>
-                    <p style={styles.statLabel}>Minutes Used</p>
-                    <h4 style={styles.statValue}>120 / Unlimited</h4>
+                    <p style={styles.statLabel}>Verbruik  minuten</p>
+                    <h4 style={styles.statValue}>120 / Onbeperkt</h4>
                 </div>
 
                 <div style={styles.statCard}>
                     <p style={styles.statLabel}>SMS</p>
-                    <h4 style={styles.statValue}>34 / Unlimited</h4>
+                    <h4 style={styles.statValue}>34 / Onbeperkt</h4>
                 </div>
             </div>
 
             {/* Usage Card */}
             <div style={styles.card}>
-                <h3 style={styles.cardTitle}>Mobile Data Usage</h3>
+                <h3 style={styles.cardTitle}>Mobiele Data Verbruik</h3>
 
                 <div style={styles.barBackground}>
                     <div style={{ ...styles.barFill, width: "42%" }} />
                 </div>
 
-                <p style={styles.usageText}>4.2 GB of 10 GB used</p>
+                <p style={styles.usageText}>4.2 GB van 10 GB gebruikt</p>
             </div>
 
             {/* Recent Invoices */}
-            <h3 style={styles.sectionTitle}>Recent Invoices</h3>
+            <h3 style={styles.sectionTitle}>Laatste facturen</h3>
 
             <div style={styles.invoiceCard}>
                 <div>
-                    <h4 style={styles.invoiceMonth}>January</h4>
-                    <p style={styles.invoiceStatus}>Paid</p>
+                    <h4 style={styles.invoiceMonth}>Januari</h4>
+                    <p style={styles.invoiceStatus}>Betaald</p>
                 </div>
                 <h3 style={styles.invoiceAmount}>€29.99</h3>
             </div>
@@ -49,7 +49,7 @@ export default function Dashboard() {
             <div style={styles.invoiceCard}>
                 <div>
                     <h4 style={styles.invoiceMonth}>December</h4>
-                    <p style={styles.invoiceStatus}>Paid</p>
+                    <p style={styles.invoiceStatus}>Betaald</p>
                 </div>
                 <h3 style={styles.invoiceAmount}>€29.99</h3>
             </div>

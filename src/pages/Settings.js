@@ -3,15 +3,15 @@ import React from "react";
 export default function Settings() {
     return (
         <div style={styles.container}>
-            <h2 style={styles.title}>Settings</h2>
-            <p style={styles.subtitle}>Manage your account, preferences and security</p>
+            <h2 style={styles.title}>Instellingen</h2>
+            <p style={styles.subtitle}>Beheer uw account, voorkeuren en veiligheid</p>
 
             {/* Profile */}
             <div style={styles.card}>
-                <h3 style={styles.cardTitle}>Profile</h3>
+                <h3 style={styles.cardTitle}>Profiel</h3>
 
                 <div style={styles.row}>
-                    <label style={styles.label}>Full Name</label>
+                    <label style={styles.label}>Volledige naam</label>
                     <input style={styles.input} defaultValue="Sarah Jacobs" />
                 </div>
 
@@ -21,30 +21,29 @@ export default function Settings() {
                 </div>
 
                 <div style={styles.row}>
-                    <label style={styles.label}>Phone</label>
+                    <label style={styles.label}>Telefoon</label>
                     <input style={styles.input} defaultValue="+32 470 123 456" />
                 </div>
             </div>
 
             {/* Preferences */}
             <div style={styles.card}>
-                <h3 style={styles.cardTitle}>Preferences</h3>
+                <h3 style={styles.cardTitle}>Voorkeuren</h3>
 
                 <div style={styles.row}>
-                    <label style={styles.label}>Language</label>
+                    <label style={styles.label}>Taal</label>
                     <select style={styles.input}>
-                        <option>English</option>
                         <option>Nederlands</option>
-                        <option>Français</option>
+                        <option>Frans</option>
                     </select>
                 </div>
 
                 <div style={styles.row}>
-                    <label style={styles.label}>Notifications</label>
+                    <label style={styles.label}>Meldingen</label>
                     <select style={styles.input}>
-                        <option>All notifications</option>
-                        <option>Only important</option>
-                        <option>None</option>
+                        <option>Alle meldingen</option>
+                        <option>Enkel belangrijke</option>
+                        <option>Geen</option>
                     </select>
                 </div>
             </div>
@@ -54,13 +53,13 @@ export default function Settings() {
                 <h3 style={styles.cardTitle}>Security</h3>
 
                 <div style={styles.row}>
-                    <label style={styles.label}>Password</label>
-                    <button style={styles.button}>Change Password</button>
+                    <label style={styles.label}>Wachtwoord</label>
+                    <button style={styles.button}>Wijzig wachtwoord</button>
                 </div>
 
                 <div style={styles.row}>
-                    <label style={styles.label}>Two‑Factor Authentication</label>
-                    <button style={styles.buttonSecondary}>Enable</button>
+                    <label style={styles.label}>Twee‑Factor Authenticatie</label>
+                    <button style={styles.buttonSecondary}>Instellen</button>
                 </div>
             </div>
         </div>
